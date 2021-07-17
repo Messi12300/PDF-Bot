@@ -164,7 +164,7 @@ def help_msg(update, context):
     keyboard = [
         [InlineKeyboardButton(_("Set Language 🌎"), callback_data=SET_LANG)],
         [
-            InlineKeyboardButton(_("Join Channel"), f"https://t.me/{CHANNEL_NAME}"),
+            InlineKeyboardButton(_("Join Channel"), f"https://t.me/newmoviesottrelease"),
             InlineKeyboardButton(_("Support PDF Bot"), callback_data=PAYMENT),
         ],
     ]
